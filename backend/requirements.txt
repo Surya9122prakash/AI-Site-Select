@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+motor
+dnspython
+passlib
+python-jose
+python-dotenv
+numpy
+pandas
+scipy
+scikit-learn
+joblib
+geopandas
+shapely
+requests
