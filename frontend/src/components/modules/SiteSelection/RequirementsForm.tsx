@@ -72,9 +72,9 @@ const RequirementsForm: React.FC<RequirementsFormProps> = ({ onResults }) => {
                 </div>
 
                 <div>
-                    <label className="block text-sm font-medium text-slate-700 mb-1">Max Budget (USD/sqm)</label>
+                    <label className="block text-sm font-medium text-slate-700 mb-1">Max Budget (INR/sqm)</label>
                     <div className="relative">
-                        <span className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400">$</span>
+                        <span className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400">₹</span>
                         <input
                             {...register('budget_limit_usd_sqm', { required: true, min: 0 })}
                             type="number"
